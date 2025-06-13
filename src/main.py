@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 import uvicorn
 
-app = Fastapi()
+app = FastAPI()
 
-@app.get("/")
+@app.get("/ping", tags= ["ping"])
 def ping():
+    """ping this site"""
     return {"msg": "pong"}
 
 

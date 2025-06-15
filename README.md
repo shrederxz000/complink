@@ -21,7 +21,8 @@
    12. и даже подсветка файлов некоторых языков программирования (python, java (и может быть kotlin), c/c++, js, rust, go)
    13. каталогов архива (в пинципе как и у всех)
 2. строенный виделплеер со скачиванием видео из
-3. 1. youtube (если будет авторизация из google, то можно смотреть и скачивать видео с ограничениями)
+
+   1. youtube (если будет авторизация из google, то можно смотреть и скачивать видео с ограничениями)
    2. tiktok
    3. instagramm
    4. rutube
@@ -45,17 +46,33 @@
 
 Основной стек технологий:
 
-* Python 3.13
-* FastAPI
-* SQLAlchemy
-* PostgreSQL
-* Amazon S3
-* Redis
-* Google ADs
-* Virustotal API
-* VueJS
-* Cloudflare
-* Rocky Linux
+* Backend
+  * FastAPI
+  * SQLAlchemy
+  * Alembic
+* Databases
+  * Amazon S3
+  * Redis
+  * PostgreSQL
+  * Clickhouse
+* Metrics
+  * Grafana
+  * Prometeus
+* Logging
+  * Kibana
+  * Logstash
+  * Elasticsearch
+* Frontend
+  * VueJS
+  * Angular
+* Message broker
+  * Kafka
+  * Celery
+* Other
+  * VirusTotal API
+  * Cloudflare
+  * Nginx
+  * Rocky linux
 
 ### **Идеи**
 
